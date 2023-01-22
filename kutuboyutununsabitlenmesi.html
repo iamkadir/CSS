@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            
+            #kutu1{
+                width: 300px;
+                height: 100px;
+                border: 1px solid blue;
+            }
+            #kutu2{
+                width: 300px;
+                height: 100px;
+                border: 1px solid red;
+                padding: 30px;
+                
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div id="kutu1">
+            lghjglhjdfghglhdghdgjhdgfhldhdfghdf<br>
+            lghjglhjdglhdghdgjhdfhgfhldhdfghdf<br>
+            lghjglhjdglhdghfghghdgjhdgfhldhdfghdf<br>
+            lghjglhjdgfghlhdghdgjhdgfhldhdfghdf<br>
+            lghjglhjdglhdgtrhdgjhdgfhldhdfghdf<br>
+             
+        </div>
+        <br>
+        <div id="kutu2">
+            lghjglhjdglhdghdgrtyjhdgfhldhdfghdf<br>
+            lghjglhjdglhdghdtyfhgjhdgfhldhdfghdf<br>
+            lghjglhjdglhdghdgjhdgfhldhdfghdf<br>
+            lghjglhjdglhdghdgjfghdgfhldhdfghdf<br>
+            lghjglhjdglhdghdgjhfghdgfhldhdfghdf<br>
+        </div>
+    </body>
+</html>
+
+<!--box-sizing = Örneğin, resim 200px genişlikte ise, border width:5px ve padding:10px komutundan sonra
+nesne genişliği (5px+10px+200px+5px+10px) 230px olur.Yani resmi 200px lik alana sığdıramayız taşar.
+Bu tür nesnelerin boyutunu sabit tutmak için box sizing özelliği kullanılır:
+Yukarıda yazdığımız  *{
+                box-sizing:border-box;
+            }
+komutundan sonra kutuların boyutu sabit kalır.
+
+yukarıda kutu2 ye padding yazdık çıktıda taştı çünkü box sizing komutu girdik eğer yazmasaydık kutunun boyutu
+değişirdi ve istediğimiz paddingte yazabilirdik.
+
+Bu özellik görüntü olarak düzgün görünmesi için kullanılır genelde çünkü farklı buyuklukteki içerikler kutuların 
+boyutunu değiştiriyor bunu önlemek için box sizing kullanarak sabitliyoruz kutuların boyutunu.-->

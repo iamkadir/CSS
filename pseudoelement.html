@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        p::first-letter{
+            color: blue;
+            font-size: 30px;
+        }
+        p::first-line{
+            color: aqua;
+        }
+
+        ::selection{
+            color:crimson;
+            background-color:blue;
+        }
+
+        p::marker{
+            color: red;
+        }
+        ::marker{
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+    </head>
+    <body>
+        <p> gfskjfskghsfkjhsfkghfgjhfgkjdfhgfdghfg
+            dgdfgdfgdfgdfdfdfggdgdfgdfgdfgdfsgdfgdgdfgdgdgd
+        </p>
+
+        <p> gfskjfskghsfkjhsfkghfgjhfgkjdfhgfdghfg
+            dgdfgdfgdfgdfdfdfggdgdfgdfgdfgdfsgdfgdgdfgdgdgd
+        </p>
+
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+          
+          <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+          </ol>
+    </body>
+</html>
+<!-- ::selection = Kullanıcının sectiği kısmın rengini ve arka planını değiştirebiliriz.
+     preview penceresinde fare ile yazılı olan bir yeri seçersek arka planı mavi, rengi ise crimson olur.
+    
+    ::marker = Liste öğelerinin işaretçilerini seçer. Yani lıstelerin basındakı noktalar veya numaraları seçer.-->

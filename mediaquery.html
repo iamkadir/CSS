@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device width, initial scale=1.0">
+
+        <style>
+            img{
+                width: 100px;  height: 100px;
+                border: red solid 2px ;
+            }
+
+            @media screen and (max-width:350px){
+                body{
+                    background-color: yellow;
+                }
+
+                img{
+                    width: 100%; 
+                }
+            }       
+            
+        </style>
+    </head>
+    <body>
+        <img src="resimlerr/besiktas.png">
+    </body>
+</html>
+<!--Belli şartlar sağlandığında belli CSS kodlarını çalıştırmak için @media komutu kullanılır.
+
+Örneğin yukarıda tarayıcı max. 350px ise (350px’den küçükse) arkaplan rengi sarı olsun dedik.
+
+ img {width: 100%;} = @media screen içine bu etiketi yazdık. Bu tarayıcı 350px den küçükse foto tarayıcının 
+ %100 genişliğini kullansın anlamına geliyor. Yani tepkisel resim oluşturduk. Tarayıcı 350px ten küçük olduğu her an
+ resim taryıcı genişliğinin hepsini kapsayacak.
+
+Yazdığımız kodu anlamak için preview penceresini genişletip daraltalım arka plan renginin ve resmin boyutlarındaki
+değişimi görebiliriz.-->

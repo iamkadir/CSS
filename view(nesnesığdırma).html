@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device width, initial scale=1.0">
+        <style>
+            
+            
+            #foto1{
+                width: 130px; height: 100px;
+                border: red solid 2px; 
+                object-fit: cover;          
+            }
+            #foto2{
+                width: 130px; height: 100px; float: right; 
+                position: relative;  right: 40px;
+                border: blueviolet solid 2px;
+                object-fit: contain;      
+            }
+           
+        </style>
+    </head>
+    <body>
+        <img id="foto1" src="resimlerr/besiktas.png">
+        <img id="foto2" src="resimlerr/besiktas.png">
+    </body>
+</html>
+<!-- object-fit: contain = En boy oranı korunarak içinde bulunduğu nesneye göre boyut değiştirir.
+
+object-fit: cover = En boy oranı korunarak içinde bulunduğu nesneye göre boyut değiştirir, kutu
+içine sığmak için resim kırpılır.
+
+object-fit: fill = Varsayılan değer. İçinde bulunduğu nesnenin boyutunu alır; Genişlik ve yükseklik
+kutuya sığacak şekilde değişir.
+
+object-fit: none = Boyut değiştirmez. 
+
+meta name="viewport" content="width=device width, initial scale=1.0" = Bu, tarayıcıya sayfanın
+boyutlarının ve ölçeklemenin nasıl kontrol edileceğine ilişkin talimatlar verir.
+Eskiden web sayfaları PC ekranına göre tasarlanırdı, bu nedenle sayfalar cep telefonu ve tabletlerde 
+kötü görünebiliyordu. 
+HTML5 ile birlikte viewport özelliği geldi. Bu özellik sayesinde web sayfası ekran boyutuna tepki verebiliyor:-->

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #buyuk{
+                border-style: solid;
+                border-color:springgreen teal yellow maroon;
+                border-style: double;
+                border-width: 10px 30px 15px 40px;
+                width: 300px;
+                height: 300px;
+                background-color:purple;
+                position: relative;
+                left: 50px;
+                top:80px;
+                z-index: 5;
+                border-radius: 20px 30px 50px 70px;              
+            }
+            #kucuk{
+                border-style: solid;
+                border-color:blue red;
+                border-style:solid;
+                border-width: 5px;
+                width: 200px;
+                height: 200px;
+                top: 20px;
+                z-index: -2;
+                border-radius: 10px 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="buyuk">
+
+        </div>
+
+        <div id="kucuk">
+
+        </div>
+    </body>
+</html>
+<!-- z-index = Kutuların öne veya arkaya taşınması için z-index özelliği kullanılır.
+Daha yüksek z-index değerine sahip olan sayfa daha önde görünür.
+Yukarıda ki örnekte olduğu gibi buyuk olan kutunun z-index değeri daha büyük 
+bu yüzden küçük olan kutu büyük olanının altına girdi.
+
+border-radius = Kutu kenarlarını yuvarlak göstermek için bu etiket kullanılır.-->

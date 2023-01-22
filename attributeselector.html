@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            a[target] {
+              background-color: yellow;
+            }
+            a[target="_top"]{
+              background-color: red;
+            }
+            input[type="text"]{
+                background-color: blue;
+            }
+            input[type="email"]{
+                background-color: blueviolet;
+            }
+            input:focus{
+                background-color: aqua;
+                width: 400px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <a href="https://www.w3schools.com">w3schools.com</a>
+        <a href="http://www.disney.com" target="_blank">disney.com</a>
+        <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+        <br>
+        <br>
+        <form>
+            Ad Soyad : <input type="text"> <br>
+            e-mail : <input type="email">  <br>
+            <input type="submit"> <input type="reset">
+        </form>
+
+    </body>
+</html>
+<!-- focus = bir inputa tıkladığımızda içindeki fontu değiştiririz yada rengi yada boyut vs değiştirebiliriz.
+prevıewde ki ad soyad veya email butonlarına tıkladığımızda arka plan renginin değiştiğini görebiliriz.-->
